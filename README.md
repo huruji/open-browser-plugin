@@ -1,5 +1,5 @@
 # open-browser-plugin
- A webpack plugin to solve the problem that webpack-dev-server can not automatically open the browser vi
+A webpack plugin to solve the problem that webpack-dev-server can not automatically open the browser via node api
 
 ## How to use
 
