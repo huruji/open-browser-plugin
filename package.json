@@ -1,6 +1,6 @@
 {
   "name": "open-browser-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A webpack plugin to solve the problem that webpack-dev-server can not automatically open the browser via node api",
   "main": "index.js",
   "scripts": {
