@@ -1,0 +1,35 @@
+{
+  "name": "open-browser-webpack-plugin",
+  "version": "1.0.0",
+  "description": "In order to solve the problem that webpack-dev-server can not automatically open the browser via node api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version && git push --follow-tags origin master && npm publish",
+    "release:first": "standard-version --first-release",
+    "release:major": "standard-version --release-as major && git push --follow-tags origin master && npm publish",
+    "release:minor": "standard-version --release-as minor && git push --follow-tags origin master && npm publish",
+    "release:patch": "standard-version --release-as patch && git push --follow-tags origin master && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huruji/open-browser-webpack-plugin.git"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.3",
+    "standard-version": "^4.4.0"
+  },
+  "author": "huruji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huruji/open-browser-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/huruji/open-browser-webpack-plugin#readme",
+  "dependencies": {
+    "open": "0.0.5"
+  }
+}
