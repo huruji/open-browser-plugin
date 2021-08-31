@@ -32,5 +32,5 @@ default `localhost`
 
 ### protocol
 
-default `hppt:`
+default `http:`
 
